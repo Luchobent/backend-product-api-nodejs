@@ -1,27 +1,30 @@
-# Backend Product API - Node.js
+# Backend Product API – Node.js
 
-API REST simple desarrollada en Node.js para la gestión de productos.
-Proyecto personal realizado como práctica de desarrollo backend y construcción de APIs.
+Basic REST API developed as part of a backend learning project.
 
-## Tecnologías utilizadas
+## 🚀 Tech Stack
 - Node.js
 - Express
-- JSON como persistencia de datos
 
-## Funcionalidades
-- Obtener lista de productos
-- Obtener producto por ID
-- Crear productos
-- Actualizar productos
-- Eliminar productos
+## 📌 Endpoints
 
-## Endpoints principales
+### Get all products
 GET /products
-POST /products
-PUT /products/:id
-DELETE /products/:id
 
-## Cómo ejecutar el proyecto
-1. Clonar repositorio
-2. npm install
-3. node app.js
+Optional query:
+?limit=number
+
+### Get product by ID
+GET /products/:pid
+
+## 🎯 Purpose
+This project was created to practice backend fundamentals:
+- Express server setup
+- Routing
+- Query params
+- Dynamic params
+- Basic API structure
+
+## 👨‍💻 Author
+Luciano Bento
+Backend Developer Student
