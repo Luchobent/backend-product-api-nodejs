@@ -1,3 +1,4 @@
+// small refactor for project organization
 const express = require('express');
 const ProductManager = require('./ProductManager');
 
